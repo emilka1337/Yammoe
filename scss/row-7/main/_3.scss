@@ -1,0 +1,41 @@
+section:nth-child(3) {
+    header {
+
+        h5 {
+            margin: 10px 0px;
+            color: #fff;
+        }
+    }
+
+    form {
+        p {
+            color: #fff;
+            margin-top: 40px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            background-color: rgba($color: #fff, $alpha: 0.2);
+            margin: 5px 0px;
+            padding: 10px;
+            border: 0px;
+            border-radius: 10px;
+            outline: none;
+            transition: 500ms;
+
+            &:focus {
+                background-color: $accentColor;
+                color: #fff;
+            }
+        }
+
+        input[type="button"] {
+            @include mainButton;
+            margin: 5px 0px;
+
+            &:hover {
+                @include secButton;
+            }
+        }
+    }
+}

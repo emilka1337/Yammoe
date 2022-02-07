@@ -1,0 +1,29 @@
+.row-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/backgrounds/background-02.jpg) no-repeat center;
+    background-size: cover;
+    padding: 80px 0px;
+
+    .row-3-container {
+        width: 70%;
+        background-color: #fff;
+        padding: 50px;
+        border-radius: 50px 0px 50px 0px;
+        
+        header {
+            text-align: center;
+        }
+        
+        main {
+            display: flex;
+            margin-top: 70px;
+
+            @import "./main-left";
+            @import "./main-right";
+        }
+    }
+}
+
+@import "./media-queries"

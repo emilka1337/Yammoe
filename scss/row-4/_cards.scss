@@ -1,0 +1,25 @@
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+    .card {
+        width: 22%;
+        text-align: center;
+        transition: 500ms;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $accentColor;
+
+            h3,
+            p {
+                color: #fff;
+            }
+        }
+
+        h3 {
+            margin-top: 15px;
+        }
+    }
+}

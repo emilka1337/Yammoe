@@ -1,0 +1,17 @@
+main {
+    display: flex;
+
+    section {
+        width: 25%;
+        padding: 20px;
+
+        p {
+            color: $darkFooterFontColor;
+        }
+    }
+
+    @import "./main/1";
+    @import "./main/2";
+    @import "./main/3";
+    @import "./main/4";
+}

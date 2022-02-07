@@ -1,0 +1,38 @@
+.dropdown {
+    display: none !important;
+    // visibility: hidden;
+    transition: 500ms;
+    transform: translateY(10px);
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    width: 150px;
+    position: absolute;
+    flex-direction: column;
+    background-color: $accentColor;
+    border-radius: 5px;
+
+    li {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.397);
+        padding: 5px;
+        transition: 500ms;
+
+        &:hover {
+            background-color: #6c78fa;
+            border-radius: 5px;
+        }
+
+        a {
+            display: block;
+            padding: 5px !important;
+        }
+
+        a:hover {
+            color: #fff !important;
+        }
+    }
+
+    li:last-child {
+        border-bottom: none;
+    }
+}

@@ -1,0 +1,22 @@
+@media screen and (max-width: 1568px) {
+    .row-3 .row-3-container main {
+
+        .row-3-left {
+            margin: auto;
+            width: 100%;
+        }
+
+        .row-3-right {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .row-3 .row-3-container {
+        width: 85%;
+        padding: 20px;
+
+        font-size: 1.5em;
+    }
+}

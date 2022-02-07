@@ -1,0 +1,27 @@
+@media screen and (max-width: 1200px) {
+    .row-2-container {
+        width: 90% !important;
+        font-size: 1.5em;
+
+        h1, p {
+            text-align: center;
+        }
+
+        .row-2-cards {
+            flex-direction: column;
+            gap: 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .row-2-cards .cards-divider {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+
+        .row-2-card {
+            width: 100% !important;
+        }
+    }
+}

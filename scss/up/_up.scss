@@ -1,0 +1,14 @@
+.up {
+    position: fixed;
+    right: 5px;
+    bottom: 10px;
+    opacity: 0.29;
+    transition: 500ms;
+    cursor: pointer;
+    
+    a {
+        @include mainButton;
+        padding: 7px 10px;
+        border-radius: 50%;
+    }
+}

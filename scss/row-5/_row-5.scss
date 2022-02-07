@@ -1,0 +1,32 @@
+.row-5 {
+    background-image: url(../img/backgrounds/background-03.jpg);
+    
+    .row-5-cover {
+        // width: 100%;
+        padding: 80px 0px;
+        background-color: $backgroundDimming;
+
+        .row-5-container {
+            width: 70%;
+            margin: auto;
+
+
+            p,
+            h3,
+            h5 {
+                color: #fff;
+            }
+
+            header {
+                text-align: center;
+                padding: 20px 0px;
+            }
+
+            main {
+                display: flex;
+
+                @import "./card";
+            }
+        }
+    }
+}

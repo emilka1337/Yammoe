@@ -1,0 +1,30 @@
+section:nth-child(2) {
+    header {
+
+        h5 {
+            margin: 10px 0px;
+            color: #fff;
+        }
+    }
+
+    main {
+        margin: 40px 0px;
+
+        ul {
+            list-style: none;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+
+            li {
+                color: $accentColor;
+                padding: 15px 0px;
+                border-bottom: 1px solid rgba($color: #fff, $alpha: 0.3);
+
+                &:last-child {
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+}

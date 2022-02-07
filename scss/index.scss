@@ -1,0 +1,29 @@
+@import "./components/colors";
+@import "./components/mixins";
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@import "./scrollbar/scrollbar";
+
+@import "./row-1/row-1";
+@import "./row-2/row-2";
+@import "./row-3/row-3";
+@import "./row-4/row-4";
+@import "./row-5/row-5";
+@import "./row-6/row-6";
+@import "./row-7/row-7";
+
+
+@import "./up/up";

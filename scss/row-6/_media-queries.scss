@@ -1,0 +1,31 @@
+@media screen and (max-width: 1200px) {
+    .row-6 .row-6-container {
+        width: 100%;
+        font-size: 2em;
+
+        main {
+            flex-wrap: wrap;
+            // gap: 20px; 
+            
+            .row-6-card {
+                padding: 20px;
+                width: 90%;
+
+                img {
+                    width: 100%;
+                }
+            } 
+        }
+    } 
+}
+
+@media screen and (max-width: 900px) {
+    .row-6 .row-6-container main {
+        flex-wrap: wrap;
+        // gap: 20px; 
+        
+        .row-6-card {
+            padding: 20px;
+        } 
+    }
+}

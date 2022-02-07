@@ -1,0 +1,45 @@
+.header-bottom {
+    margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    border-bottom: 1px solid rgba($color: #000, $alpha: 0.3);
+
+    .logo a {
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+
+        ul {
+            @include nav;
+
+            li {
+                &:hover .dropdown {
+                    display: flex !important;
+                    transform: translateY(0px);
+                }
+
+                a {
+                    @include navLink;
+
+                    &:hover {
+                        color: $accentColor;
+                    }
+
+                    span {
+                        font-size: 0.7em;
+                    }
+                }
+            }
+
+        }
+    }
+}

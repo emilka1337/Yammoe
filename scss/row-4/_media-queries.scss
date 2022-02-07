@@ -1,0 +1,68 @@
+@media screen and (max-width: 1200px) {
+    .row-4 .row-4-container {
+        width: 100%;
+
+        header {
+            h3 {
+                font-size: 1.7em;
+            }
+
+            p {
+                font-size: 1.3em;
+            }
+        }
+
+        .cards {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+
+            .card {
+                width: 90%;
+
+                h3 {
+                    font-size: 3em;
+                }
+
+                p {
+                    font-size: 2em;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .row-4 .row-4-container {
+        width: 100%;
+
+        header {
+            h3 {
+                font-size: 1.7em;
+            }
+
+            p {
+                font-size: 1.3em;
+            }
+        }
+
+        .cards {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+
+            .card {
+
+                h3 {
+                    font-size: 2em;
+                }
+
+                p {
+                    font-size: 1.5em;
+                }
+            }
+        }
+    }
+}

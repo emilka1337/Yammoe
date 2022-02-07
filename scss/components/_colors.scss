@@ -1,0 +1,11 @@
+$accentColor: #828BF4;      // Accent color
+$darkFontColor: #474747;    // Dark text color
+$darkFooterFontColor: #A8A8A8;    // Dark footer text color
+$backgroundColor: #F4F4F4;  // Light background color
+$backgroundDimming: rgba($color: #000, $alpha: 0.5);    // Dimming for background pictures
+$footerSocialLinksColor: rgba(255, 255, 255, .2);       // Footer inks background color
+$divideBorder: 1px solid rgba($color: #000, $alpha: 0.3);
+
+h1, h2, h3, h4, h5, h6 {
+    color: #474747;
+}

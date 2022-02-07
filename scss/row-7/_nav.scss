@@ -1,0 +1,16 @@
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+    border-top: 1px solid rgba($color: #fff, $alpha: 0.3);
+    border-bottom: 1px solid rgba($color: #fff, $alpha: 0.3);
+
+    ul {
+        @include nav;
+
+        li,
+        a {
+            @include navLink;
+        }
+    }
+}

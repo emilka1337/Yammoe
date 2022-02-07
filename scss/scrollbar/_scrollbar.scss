@@ -1,0 +1,16 @@
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: rgba(26, 24, 47, 0.15);
+    border-radius: 5px;
+    height: 200px;
+    transition: 200ms;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $accentColor;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #5f68d1;
+}

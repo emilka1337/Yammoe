@@ -1,0 +1,37 @@
+section:nth-child(1) {
+    header {
+
+        h5 {
+            margin: 10px 0px;
+            color: #fff;
+        }
+    }
+
+    main {
+
+        p {
+            margin: 10px 0px;
+            margin: 40px 0px;
+        }
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            background-color: $footerSocialLinksColor;
+            transition: 500ms;
+            cursor: pointer;
+
+            &:hover {
+                background-color: rgba(255, 255, 255, .5);
+            }
+        }
+    }
+}

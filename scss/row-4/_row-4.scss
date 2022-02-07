@@ -1,0 +1,18 @@
+.row-4 {
+    display: flex;
+    justify-content: center;
+    background-color: $backgroundColor;
+
+    .row-4-container {
+        width: 70%;
+        padding: 50px 0px;
+
+        header {
+            text-align: center;
+        }
+
+        @import "./cards";
+    }
+}
+
+@import "./media-queries"

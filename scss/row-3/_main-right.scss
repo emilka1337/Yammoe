@@ -1,0 +1,20 @@
+.row-3-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border: 1px solid rgba(130, 139, 244, .3);
+    padding: 0px 10px;
+    cursor: pointer;
+    
+    img {
+        width: 100%;
+        transition: 500ms;
+    }
+
+    &:hover img {
+        // filter: hue-rotate(180deg);
+        position: relative;
+        transform: scale(1.08);
+    }
+}

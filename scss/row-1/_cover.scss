@@ -1,0 +1,39 @@
+.cover-container {
+    background-color: $backgroundDimming;
+}
+
+.cover {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    padding: 200px 0px;
+
+    .cover-text {
+        h3 {
+            font-size: 40px;
+            color: #fff;
+        }
+        h1 {
+            font-size: 80px;
+            font-weight: 100;
+            color: #fff;
+        }
+    }
+
+    .cover-buttons button:nth-child(1) {
+        @include mainButton;
+
+        &:hover {
+            @include secButton;
+        }
+    }
+
+    .cover-buttons button:nth-child(2) {
+        @include secButton;
+
+        &:hover {
+            @include mainButton;
+        }
+    }
+}

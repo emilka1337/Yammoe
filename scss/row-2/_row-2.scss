@@ -1,0 +1,13 @@
+.row-2 {
+    .row-2-container {
+        width: 75%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 100px 0px;
+
+        @import "./_card.scss";
+    }
+}
+
+@import "./media-queries";

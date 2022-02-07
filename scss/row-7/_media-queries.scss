@@ -1,0 +1,23 @@
+
+
+@media screen and (max-width: 900px) {
+    .row-7 .row-7-container {
+
+        nav {
+            padding: 0 !important;
+
+            ul {
+                display: flex;
+                flex-direction: column !important;
+            }
+        }
+
+        main {
+            justify-content: space-around;
+
+            section:nth-child(4) {
+                display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.row-7 {
+    background: url(../img/backgrounds/background-04.jpg) no-repeat fixed center;
+    background-size: cover;
+
+    .row-7-cover {
+        background-color: $backgroundDimming;
+
+        .row-7-container {
+            width: 70%;
+            margin: auto;
+
+            @import "./main";
+            @import "./nav";
+            @import "./footer";
+        }
+    }
+}
+
+@import "./media-queries";
